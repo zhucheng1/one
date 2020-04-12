@@ -1,0 +1,27 @@
+package com.ouyangjiahang.event.util;
+/**
+ * ×Ö·û´®¹¤¾ßÀà
+ * @author Å·Ñô¼Ñº½
+ *
+ */
+public class StringUtil {
+	/**
+	 * ÅĞ¶ÏÊäÈëÊÇ·ñÎª¿Õ
+	 * @param str
+	 * @return
+	 */
+	public static boolean isEmpty(String str) {
+		if(str==null || "".equals(str.trim())) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	public static boolean isNotEmpty(String str) {
+		if(str!=null || !"".equals(str.trim())) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+}
